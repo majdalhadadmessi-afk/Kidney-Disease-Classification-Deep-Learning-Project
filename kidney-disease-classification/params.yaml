@@ -1,0 +1,8 @@
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3] # Standard VGG16 input shape
+BATCH_SIZE: 16
+INCLUDE_TOP: False
+EPOCHS: 15
+CLASSES: 4 # 4 Medical Classes: Cyst, Normal, Stone, Tumor
+WEIGHTS: imagenet
+LEARNING_RATE: 0.001
